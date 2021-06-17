@@ -19,7 +19,6 @@ public class Security extends WebSecurityConfigurerAdapter {
         this.dataSource = dataSource;
     }
 
-
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 //        super.configure(auth);
